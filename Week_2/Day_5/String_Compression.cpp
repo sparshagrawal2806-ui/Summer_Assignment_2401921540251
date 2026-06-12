@@ -2,8 +2,8 @@ class Solution {
 public:
     int compress(vector<char>& chars) {
         int n = chars.size();
-        int index = 0;  // write pointer
-        int i = 0;      // read pointer
+        int index = 0;
+        int i = 0;
 
         while (i < n) {
             char curr = chars[i];
